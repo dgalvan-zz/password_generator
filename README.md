@@ -30,9 +30,15 @@ o	The generated password will be displayed as the output.
 **Example**
 
 min_length = 12
+
+
 has_number = True
+
+
 has_special = True
 
 psd = generate_password(min_length, has_number, has_special)
+
+
 print("The password generated is:", psd)
 
